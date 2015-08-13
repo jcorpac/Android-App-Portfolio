@@ -30,48 +30,36 @@
             <Button
                 android:id="@+id/btnSpotify"
                 style="@style/AppButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/strStreamer"
                 android:onClick="onClickedSpotify"/>
 
             <Button
                 android:id="@+id/btnScores"
                 style="@style/AppButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/strScores"
                 android:onClick="onClickedScores"/>
 
             <Button
                 android:id="@+id/btnLibrary"
                 style="@style/AppButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/strLibrary"
                 android:onClick="onClickedLibrary"/>
 
             <Button
                 android:id="@+id/btnBuildItBigger"
                 style="@style/AppButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/strBuildBigger"
                 android:onClick="onClickedBuildItBigger"/>
 
             <Button
                 android:id="@+id/btnXYZReader"
                 style="@style/AppButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/strXYZReader"
                 android:onClick="onClickedReader"/>
 
             <Button
                 android:id="@+id/btnCapstone"
                 style="@style/CapstoneButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/strCapstone"
                 android:onClick="onClickedCapstone"/>
 
