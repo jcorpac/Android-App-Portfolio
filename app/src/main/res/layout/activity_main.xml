@@ -3,7 +3,7 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              tools:context=".MainActivity"
-             android:background="#badaff" >
+             android:background="@color/activityBackground" >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,42 +32,48 @@
                 style="@style/AppButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/strStreamer"/>
+                android:text="@string/strStreamer"
+                android:onClick="onClickedSpotify"/>
 
             <Button
                 android:id="@+id/btnScores"
                 style="@style/AppButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/strScores"/>
+                android:text="@string/strScores"
+                android:onClick="onClickedScores"/>
 
             <Button
                 android:id="@+id/btnLibrary"
                 style="@style/AppButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/strLibrary"/>
+                android:text="@string/strLibrary"
+                android:onClick="onClickedLibrary"/>
 
             <Button
                 android:id="@+id/btnBuildItBigger"
                 style="@style/AppButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/strBuildBigger"/>
+                android:text="@string/strBuildBigger"
+                android:onClick="onClickedBuildItBigger"/>
 
             <Button
                 android:id="@+id/btnXYZReader"
                 style="@style/AppButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/strXYZReader"/>
+                android:text="@string/strXYZReader"
+                android:onClick="onClickedReader"/>
 
             <Button
                 android:id="@+id/btnCapstone"
                 style="@style/CapstoneButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/strCapstone"/>
+                android:text="@string/strCapstone"
+                android:onClick="onClickedCapstone"/>
 
         </LinearLayout>
     </ScrollView>

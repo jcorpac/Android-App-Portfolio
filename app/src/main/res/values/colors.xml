@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btnColor">#F08C35</color>
+    <color name="btnColorCapstone">#cf0013</color>
+    <color name="activityBackground">#badaff</color>
+</resources>
