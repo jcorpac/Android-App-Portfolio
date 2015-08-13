@@ -11,34 +11,27 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnSpotify;
-    private Button btnScores;
-    private Button btnLibrary;
-    private Button btnBuildItBigger;
-    private Button btnXYZReader;
-    private Button btnCapstone;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnSpotify = (Button)findViewById(R.id.btnSpotify);
+        Button btnSpotify = (Button) findViewById(R.id.btnSpotify);
         btnSpotify.setOnClickListener(mClickedListener);
 
-        btnScores = (Button)findViewById(R.id.btnScores);
+        Button btnScores = (Button) findViewById(R.id.btnScores);
         btnScores.setOnClickListener(mClickedListener);
 
-        btnLibrary = (Button)findViewById(R.id.btnLibrary);
+        Button btnLibrary = (Button) findViewById(R.id.btnLibrary);
         btnLibrary.setOnClickListener(mClickedListener);
 
-        btnBuildItBigger = (Button)findViewById(R.id.btnBuildItBigger);
+        Button btnBuildItBigger = (Button) findViewById(R.id.btnBuildItBigger);
         btnBuildItBigger.setOnClickListener(mClickedListener);
 
-        btnXYZReader = (Button)findViewById(R.id.btnXYZReader);
+        Button btnXYZReader = (Button) findViewById(R.id.btnXYZReader);
         btnXYZReader.setOnClickListener(mClickedListener);
 
-        btnCapstone = (Button)findViewById(R.id.btnCapstone);
+        Button btnCapstone = (Button) findViewById(R.id.btnCapstone);
         btnCapstone.setOnClickListener(mClickedListener);
 
     }
