@@ -28,10 +28,10 @@
                 android:text="@string/strTitle"/>
 
             <Button
-                android:id="@+id/btnSpotify"
+                android:id="@+id/btnMovies"
                 style="@style/AppButton"
-                android:text="@string/strStreamer"
-                android:onClick="onClickedSpotify"/>
+                android:text="@string/strMovies"
+                android:onClick="onClickedMovies"/>
 
             <Button
                 android:id="@+id/btnScores"

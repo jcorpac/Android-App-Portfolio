@@ -3,7 +3,7 @@
 
     <string name="action_settings">Settings</string>
     <string name="strTitle">My Nanodegree Apps!</string>
-    <string name="strStreamer">Spotify Streamer</string>
+    <string name="strMovies">Popular Movies</string>
     <string name="strScores">Scores App</string>
     <string name="strLibrary">Library App</string>
     <string name="strBuildBigger">Build It Bigger</string>
